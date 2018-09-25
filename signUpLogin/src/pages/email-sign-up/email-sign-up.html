@@ -1,0 +1,37 @@
+
+<ion-header>
+
+  <ion-navbar style="background-color: #dfe4ea">
+    <ion-title>Email Sign Up</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding >
+  <div class="divs">
+      <h1 class="txtHead">Sign up</h1>
+      <ion-list class="list-form" no-lines>
+          <ion-item class="itemcolor">
+              <ion-label stacked>EMAIL ADDRESS</ion-label>
+              <ion-input type="email" placeholder="Email Address" [(ngModel)]="user.email" name="email" class="inpts"></ion-input>
+            </ion-item>
+          
+            <ion-item>
+              <ion-label stacked>USERNAME</ion-label>
+              <ion-input type="text" placeholder="Username" [(ngModel)]="user.username" name="username" class="inpts"></ion-input>
+            </ion-item>
+          
+            <ion-item>
+              <ion-label stacked>FIRST AND LAST NAME</ion-label>
+              <ion-input type="password" placeholder="Password" [(ngModel)]="user.password" name="password" class="inpts"></ion-input>
+            </ion-item>
+          
+            <ion-item>
+              <button ion-button full (click)="RegisterWithEmail(user)" class="btn">Create Account</button>
+            </ion-item>
+      </ion-list>
+  </div>
+
+       
+</ion-content>

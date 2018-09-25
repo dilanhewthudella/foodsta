@@ -1,0 +1,46 @@
+
+<ion-header>
+
+  <ion-navbar style="background-color: #dfe4ea" class="btn" >
+     
+      <ion-title>
+          <button  ion-button color="#ff6b81" clear (click)="Logout()" >Log out?</button>
+        <h5>Complete Profile</h5>
+      </ion-title>
+
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item class="itemcolor"> 
+      <ion-label stacked>EMAIL ADDRESS</ion-label>
+      <ion-input type="email" placeholder="Email Address" class="inpts"></ion-input>
+    </ion-item>
+  
+    <ion-item class="itemcolor">
+      <ion-label stacked>USERNAME</ion-label>
+      <ion-input type="text" placeholder="Username" class="inpts"></ion-input>
+    </ion-item>
+
+    <ion-item class="itemcolor">
+      <ion-label stacked>FIRST AND LAST NAME</ion-label>
+      <ion-input type="text" placeholder="First and Last Name" class="inpts"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <button ion-button class="bttn" full (click)="SaveInformation()">Save Information</button>
+      </ion-item>
+  
+  </ion-list>
+</ion-content>
+
+
+
+
+
+ 

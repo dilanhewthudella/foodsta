@@ -1,0 +1,38 @@
+
+<ion-header>
+
+  <ion-navbar style="background-color: #dfe4ea">
+    <ion-title><h5>EMAIL ADDRESS</h5></ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <h1 class="txtHead">Login</h1>
+    <form class="list-form" no-lines>
+        <ion-item class="itemcolor">
+            <ion-label stacked class="txt">EMAIL ADDRESS OR USERNAME</ion-label>
+            <ion-input type="Email" placeholder="Email Address/Username" [(ngModel)]="user.email" name="email" class="inpts"></ion-input>
+          </ion-item>
+        
+          <ion-item class="itemcolor">
+            <ion-label stacked class="txt">PASSWORD</ion-label>
+            <ion-input type="password" placeholder="Password" [(ngModel)]="user.password" name="password" class="inpts"></ion-input>
+          </ion-item>
+        
+          <ion-item>
+            <button ion-button full (click)="LoginWithEmail(user)"  class="btn">Login</button>
+          </ion-item>
+        
+          <ion-item>
+              <button ion-button clear ion-button full (click)="ForgotPassword()">Forgot Password?</button>
+          </ion-item>
+
+          <ion-item>
+              <button ion-button full (click)="RegisterWithEmail()" class="dwnbutton"><ion-icon name="Add" ></ion-icon>Don't have an account?</button> 
+          </ion-item>
+
+    </form>
+    
+</ion-content>

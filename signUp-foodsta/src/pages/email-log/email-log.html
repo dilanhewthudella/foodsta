@@ -1,0 +1,31 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>EMAIL ADDRESS</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<h1>Login</h1>
+<form class="list-form" no-lines>
+    <ion-item class="itemcolor">
+      <ion-label class="txt" floating>
+          EMAIL ADDRESS OR USERNAME
+      </ion-label>
+      <ion-input placeholder="Email address/username" class="inpts" type="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label class="txt" floating>
+         PASSWORD
+      </ion-label>
+      <ion-input placeholder="password" class="inpts" type="password"></ion-input>
+    </ion-item>
+
+  </form>
+  <button class="btn">Login</button>
+  <button  ion-button clear (click)="gotoVerfyfogtpwrd()">Forgot password?</button>
+</ion-content>

@@ -1,0 +1,71 @@
+page-email-login {
+    .list-form{
+        height:50% ;
+    }
+    .itemcolor {
+
+        color:black; 
+        border-radius:5px;
+        border-color: #7f8c8d;
+        padding-top: 10px;
+
+      } 
+      .txtHead{
+       
+        text-align: center;
+        font-size: 0.5sem;
+        width: 100%;
+        font-weight: bold;
+        color: #000;
+        padding: 10px;
+    }
+   
+        .txt{
+           // margin-top: 10px;
+            color:#7f8c8d;
+            overflow: inherit ;
+            text-overflow: inherit ;
+            white-space: wrap;
+            //font-size: 13px;   
+        }
+        .txts{
+            // margin-top: 10px;
+             color:#7f8c8d;
+             overflow: inherit ;
+             text-overflow: inherit ;
+             white-space: wrap;
+             //font-size: 13px;
+             text-align: center;   
+         }
+        .inpts{
+            margin-top: 10px;
+            margin: 0.25rem;
+            min-width: 125px;
+            width:100%;
+            border-style: solid;
+            border-radius: 5px;
+            border-width: 2px;
+            height:45px;
+            font-size: 15px;
+            text-align: center;
+            border-color: #afb9b9;
+        }
+        .btn{
+            width: 100%;
+            height: 45px;
+            background: #ff6b81;
+            margin-bottom: 0;
+            border-radius: 10px;
+            color:#fff;
+            font-size: 15px;
+        }
+        .dwnbutton{
+            margin-bottom: 0px;
+            margin-top: 78%;
+            width: 100%;
+            height: 45px;
+            color:#000;
+            background: #dfe4ea;
+            font-size: 11px;
+        }
+}

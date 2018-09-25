@@ -1,0 +1,34 @@
+
+<ion-content style="background-color: #ffcccc" padding>
+  <div class="divstxt">
+      <img src="assets/imgs/img2.png" class="dp" >
+      <h1 class="txtHead">Get Started with </h1> 
+      <h1 class="txtHeads"> Your Phone Number</h1>
+  </div>
+  <div class="divitm">
+    <ion-list>
+
+      <ion-item ion-item class="itms" >
+        <ion-input class="ins" type="text" placeholder = "Phone Number"></ion-input>
+      </ion-item>
+    
+      <ion-item class="itms">
+        <button  ion-button full class="buttns" (click)="LoginWithOTP()">Login</button>
+      </ion-item>
+
+      <ion-item class="itms">
+        <h6 class="txt" >sms and data rates may apply.By pressing Login you,<br/> agree to our terms and Conditions<br/> or</h6>
+      </ion-item>
+
+      <ion-item class="itms">
+        <button ion-button full (click)="LoginWithFacebook()" class="butns" ion-button color="primary" clear><ion-icon name="logo-facebook" ></ion-icon>Facebook</button>
+        <button ion-button full (click)="LoginWithEmail()" class="butns" ion-button color="primary" clear>Email Address</button>
+      </ion-item>
+    </ion-list>
+
+  </div>
+
+
+
+
+</ion-content>
